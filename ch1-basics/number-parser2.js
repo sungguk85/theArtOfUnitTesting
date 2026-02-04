@@ -24,5 +24,5 @@ const sum = (numbers) => {
 
 module.exports = {
   sum,
-  totalSoFar,
+  totalSoFar
 };
