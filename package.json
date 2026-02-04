@@ -4,7 +4,7 @@
   "description": "이 프로젝트는 The Art of Unit Testing의 번역서의 예제 코드를 담고 있습니다.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "node ./ch1-basics/custom-test-phase1.js",
     "ch1": "semistandard --fix ch1-basics && node ch1-basics/custom-test-phase1.js && node ch1-basics/custom-test-phase2.js && node ch1-basics/custom-test-phase3.js",
     "ch2": "jest ch2",
     "ch3": "jest ch3",
